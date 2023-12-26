@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+  background: #000;
+}
+
+.mobile-msg-msg {
+  width: 200px;
+}
+
+.my-name {
+  position: absolute;
+  top: 7%;
+  right: 5%;
+  font-family: "Press Start 2P", "sans-serif";
+  background-color: #4672a3;
+  color: white;
+}
+
+.mobile-message {
+  z-index: 4;
+  background-color: black;
+  width: 200%;
+  font-size: 40px;
+  top: 0;
+  overflow: hidden;
+  font-weight: 500;
+  color: beige;
+  position: absolute;
+  height: 400vh;
+}
+
+.home-profile-pic {
+  width: 30%;
+  top: 130%;
+  left: 67%;
+  position: absolute;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.home-profile-pic:hover {
+  filter: grayscale(0%);
+  transition: 1s;
+}
+
+.home-bg-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-changing-txt {
+  position: absolute;
+  top: 39%;
+  left: 32%;
+  font-weight: 600;
+  font-size: xx-large;
+  font-family: "Press Start 2P", "sans-serif";
+  color: azure;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.home-section {
+  position: absolute;
+  background-color: bisque;
+  width: 400px;
+  top: -1%;
+  left: 20%;
+}
+
+.home-text-show {
+  left: 0px;
+  position: relative;
+  overflow: hidden;
+  height: 70px;
+}
+
+.home-inner-headings {
+  font-size: 35px;
+  text-transform: uppercase;
+  position: relative;
+  font-family: "Press Start 2P", "sans-serif";
+  line-height: 90px;
+  animation: text-animation 10s step-start infinite;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+@keyframes text-animation {
+  0% {
+    top: 0px;
+    color: #fe0000;
+  }
+  25% {
+    top: -110px;
+    color: rgb(251, 255, 0);
+  }
+  50% {
+    top: -200px;
+    color: rgb(128, 255, 0);
+  }
+  75% {
+    top: -290px;
+    color: rgb(0, 255, 200);
+  }
+  100% {
+    top: 0;
+    color: #fe0000;
+  }
+}
+.home-about {
+  z-index: 4;
+  background: white;
+  height: 100vh;
+  font-family: "Press Start 2P", "sans-serif";
+  color: rgb(194, 61, 255);
+  background: #000;
+}
+
+.home-about-me-heading {
+  text-decoration: underline;
+}
+
+.home-about-inner {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  width: 60%;
+  text-align: justify;
+  margin-left: 20px;
+  font-family: "Press Start 2P", "sans-serif";
+}
+
+.home-skills {
+  height: 100vh;
+  color: white;
+  background-color: #686767;
+}
+
+.home-darksouls {
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-explore-btn {
+  padding: 14px;
+  width: 160px;
+  border-radius: 8px;
+  border: 0;
+  font-family: "Press Start 2P", "sans-serif";
+  position: absolute;
+  background-color: rgba(238, 209, 21, 0.964);
+  top: 270%;
+  left: 80%;
+  box-shadow: 7px -7px 0px rgba(0, 0, 0, 0.496);
+  animation: shadow-animataion 5s infinite;
+}
+
+.skills-showskills {
+  position: absolute;
+  top: 250%;
+  left: 20%;
+  font-family: "Press Start 2P", "sans-serif";
+  font-size: 30px;
+}
+
+.skill-btn1 {
+  margin-right: 20px;
+}
+
+.skills-btn2 {
+  margin-left: 30px;
+  position: sticky;
+}
+
+.selected-skill-info {
+  width: inherit;
+  position: absolute;
+  height: auto;
+  top: 260%;
+  left: 20%;
+  background: rgb(129, 20, 20);
+  border: 4px inset white;
+  border-radius: 8px;
+  padding: 10px;
+  font-family: "Press Start 2P", sans-serif; /* Set the font family here */
+}
+
+.home-close {
+  position: absolute;
+  padding: 2px;
+  top: -2%;
+  left: 92%;
+}
+
+.contact-me {
+  position: absolute;
+  height: 20vh;
+  top: 335%;
+  z-index: 4;
+  background-color: rgb(131, 48, 48); /* Change this line to your preferred light color */
+  width: 100%;
+  color: white;
+}
+.contact-me .contact-me-heading {
+  font-family: "Press Start 2P", sans-serif;
+  text-shadow: 2px 2px 2px black;
+  padding: 10px;
+}
+.contact-me .contactme-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  transform: translate(200%, 50%);
+}
+.contact-me .contactme-img {
+  width: 40px;
+}/*# sourceMappingURL=HomeComponent.css.map */
